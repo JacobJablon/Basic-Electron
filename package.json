@@ -4,7 +4,7 @@
   "description": "A basic electron demo",
   "main": "electron/main.js",
   "scripts": {
-    "start": "",
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack"
   },
@@ -18,5 +18,10 @@
     "terser-webpack-plugin": "^5.3.10",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "electron": "^35.1.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
